@@ -14,7 +14,7 @@ or
     ``` pip install imdbpy ```
 - Once installed, you can use the [Quick-Start](https://imdbpy.readthedocs.io/en/latest/usage/quickstart.html#searching) to get started.
 
-### Usgage:
+### Usage:
 To use my script as it stands at time of writing.
 
 ``` python search.py -m movie [-p people | -k keyword ] ```
