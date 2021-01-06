@@ -4,3 +4,12 @@
 The movie rang a bell but I couldn't remember if I had seen it or anything else about it so I decided I would look it up. It was at this moment that I thought "hang on! there should be an api for imdb so that I can integrate it into my bot and do a search write within discord.
 
 Enter this repo :) 
+
+The project uses [IMDbPY](https://github.com/alberanid/imdbpy)
+
+### To get started:
+- Install module using:
+    ```pip install git+https://github.com/alberanid/imdbpy ```
+or
+    ``` pip install imdbpy ```
+- Once installed, you can use the [Quick-Start](pip install git+https://github.com/alberanid/imdbpy) to get started.
