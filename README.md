@@ -12,4 +12,4 @@ The project uses [IMDbPY](https://github.com/alberanid/imdbpy)
     ```pip install git+https://github.com/alberanid/imdbpy ```
 or
     ``` pip install imdbpy ```
-- Once installed, you can use the [Quick-Start](pip install git+https://github.com/alberanid/imdbpy) to get started.
+- Once installed, you can use the [Quick-Start](https://imdbpy.readthedocs.io/en/latest/usage/quickstart.html#searching) to get started.
