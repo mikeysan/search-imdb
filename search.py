@@ -33,26 +33,29 @@ def findKeywords(word):
     except IMDbError as e:
         print(e)
 
-# try:
-#     people = ia.search_person('Mel Gibson')
-#     for each in people:
-#         print(each)
-# except IMDbError as e:
-#     print(e)
 
 parser = argparse.ArgumentParser(description='Search imdb for movies, people, or keywords')
 
 parser.add_argument('-m', '--movie', help='search for a movie or movies', type=str, metavar='film')
 parser.add_argument('-p', '--people', help='search for a people', type=str, metavar='folks')
+parser.add_argument('-k', '--keyword', help='search using keywords', type=str, metavar='word')
 # parser.add_argument('yourMovie', help='Search for a movie or movies', type=str)
 
 # yourMovie = input('What movie are you looking for?\n ')
 
 args = parser.parse_args()
 if args.movie:
+    print()
     print(getMovies(args.movie))
 elif  args.people:
+    print()
     print(getPeople(args.people))
+elif args.keyword:
+    print()
+    print(findKeywords(args.keyword))
 else:
-    print('USAGE: Use -m MOVIE for search for a movie or -p PEOPLE to search for a person')
-
+    print('Search IMDB for Movies, People, or Keywords')
+    print()
+    print('USAGE: Use "-m MOVIE" to search for a movie or movies')
+    print('       Use "-p PEOPLE" to search for a person')
+    print('       Or use "-k KEYWORD" to search by keyword')
