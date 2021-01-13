@@ -10,12 +10,24 @@ The project uses [IMDbPY](https://github.com/alberanid/imdbpy)
 ### To get started:
 - You need a terminal or Command line for Windows (Powershell)
 - Python 3.8.6+
-- Install module using:
-    ```pip3 install git+https://github.com/alberanid/imdbpy ```
+- Install module using: Note these commands work for Linux and MacOS. For Windows use `pip` instead of `pip3`
+
+```
+    pip3 install git+https://github.com/alberanid/imdbpy
+    
+```
 or
-``` pip3 install -r requirements.txt ```
+
+```
+pip3 install -r requirements.txt
+
+```
 or
-    ``` pip3 install imdbpy ```
+
+ ```
+    pip3 install imdbpy
+    
+```
 - Once installed, you can use the [Quick-Start](https://imdbpy.readthedocs.io/en/latest/usage/quickstart.html#searching) to get started.
 
 ### Usage:
