@@ -8,6 +8,8 @@ Enter this repo :)
 The project uses [IMDbPY](https://github.com/alberanid/imdbpy)
 
 ### To get started:
+- You need a terminal or Command line for Windows (Powershell)
+- Python 3.8.6+
 - Install module using:
     ```pip install git+https://github.com/alberanid/imdbpy ```
 or
@@ -15,6 +17,10 @@ or
 - Once installed, you can use the [Quick-Start](https://imdbpy.readthedocs.io/en/latest/usage/quickstart.html#searching) to get started.
 
 ### Usage:
-To use my script as it stands at time of writing.
+To use my script as it stands at time of writing. Open a terminal and navigate to where you saved the files
 
+On Windows:
 ``` python search.py -m movie [-p people | -k keyword ] ```
+
+On Linux:
+``` python3 search.py -m movie [-p people | -k keyword ] ```
